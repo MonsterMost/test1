@@ -2,12 +2,14 @@ from telebot import TeleBot
 from configs import *
 from keyboards import *
 from functions import *
+from texnomartparser import start_parser
 from telebot.types import LabeledPrice
 bot = TeleBot(TOKEN, parse_mode='HTML')
 
 
 @bot.message_handler(commands=['start'])
 def command_start(message):
+    start_parser()
     chat_id = message.chat.id
     first_name = message.from_user.first_name
 
