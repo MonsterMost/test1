@@ -29,10 +29,10 @@ MAX_QUANTITY = 3
 # pip install pytelegrambotapi
 
 database = sql.connect(
-    database='texnomartDenis',
-    host='localhost',
-    user='postgres',
-    password='123456'
+    database='dbpe6u4hrbmkvq',
+    host='ec2-176-34-105-15.eu-west-1.compute.amazonaws.com',
+    user='zwhewbzryioixn',
+    password='91d502d9b2265d6d69d46d5ee1336286ac10a998e4bf842914526549d91e518c'
 )
 
 
